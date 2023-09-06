@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LOJAH1.Catalogo.Application\LOJAH1.Catalogo.Application.csproj" />
+    <ProjectReference Include="..\LOJAH1.Catalogo.Data\LOJAH1.Catalogo.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="FileJsonData\" />
+  </ItemGroup>
+
+</Project>

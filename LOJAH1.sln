@@ -5,15 +5,19 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Domain", "01 - Domain", "{6351B3F3-D209-471D-88DA-96EF7A0D9B57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOJAH1.Catalogo.Domain", "src\LOJAH1.Catalogo.Domain\LOJAH1.Catalogo.Domain.csproj", "{19BB84B7-8040-46BF-92C5-6CB098F9AA1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LOJAH1.Catalogo.Domain", "src\LOJAH1.Catalogo.Domain\LOJAH1.Catalogo.Domain.csproj", "{19BB84B7-8040-46BF-92C5-6CB098F9AA1D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Data", "02 - Data", "{390CBD61-0160-4DFA-8724-6ABDE1BB6232}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOJAH1.Catalogo.Data", "src\LOJAH1.Catalogo.Data\LOJAH1.Catalogo.Data.csproj", "{98EC73A4-0F99-4124-903B-B8787A4F734C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LOJAH1.Catalogo.Data", "src\LOJAH1.Catalogo.Data\LOJAH1.Catalogo.Data.csproj", "{98EC73A4-0F99-4124-903B-B8787A4F734C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Application", "03 - Application", "{B22BAEB7-CBDF-499C-A3E4-9E8134DA4290}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOJAH1.Catalogo.Application", "src\LOJAH1.Catalogo.Application\LOJAH1.Catalogo.Application.csproj", "{BD564C17-1E9D-4F43-AC9C-0077B2F54829}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LOJAH1.Catalogo.Application", "src\LOJAH1.Catalogo.Application\LOJAH1.Catalogo.Application.csproj", "{BD564C17-1E9D-4F43-AC9C-0077B2F54829}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - API", "04 - API", "{B7E43D89-B21B-4AD2-947B-BD3851F0E23D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOJAH1.Catalogo.API", "src\LOJAH1.Catalogo.API\LOJAH1.Catalogo.API.csproj", "{435CF639-1018-43AD-AB10-E079CC1B92DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,10 @@ Global
 		{BD564C17-1E9D-4F43-AC9C-0077B2F54829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD564C17-1E9D-4F43-AC9C-0077B2F54829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD564C17-1E9D-4F43-AC9C-0077B2F54829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{435CF639-1018-43AD-AB10-E079CC1B92DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435CF639-1018-43AD-AB10-E079CC1B92DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435CF639-1018-43AD-AB10-E079CC1B92DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435CF639-1018-43AD-AB10-E079CC1B92DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{19BB84B7-8040-46BF-92C5-6CB098F9AA1D} = {6351B3F3-D209-471D-88DA-96EF7A0D9B57}
 		{98EC73A4-0F99-4124-903B-B8787A4F734C} = {390CBD61-0160-4DFA-8724-6ABDE1BB6232}
 		{BD564C17-1E9D-4F43-AC9C-0077B2F54829} = {B22BAEB7-CBDF-499C-A3E4-9E8134DA4290}
+		{435CF639-1018-43AD-AB10-E079CC1B92DD} = {B7E43D89-B21B-4AD2-947B-BD3851F0E23D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9381C40C-D09E-4BBD-808E-334759B8EFF3}
